@@ -1,0 +1,124 @@
+#postcard {
+  display: block;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-title a {
+  text-decoration-line: none;
+  color: azure;
+}
+
+#view-more {
+  text-align: center;
+}
+
+#more {
+  color: #ffbb00;
+}
+
+#regist-for-notifications {
+  padding: 0 13%;
+}
+
+#regist-title {
+  color: azure;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+#regist {
+  background-color: #ffbb00;
+  color: azure;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+#regist-question {
+  color: azure;
+  font-size: 13px;
+}
+
+@media (min-width: 666px) {
+  #main {
+    display: block;
+  }
+  #postcard {
+    display: block;
+  }
+  .cards a {
+    width: 65%;
+    margin: 10px 0;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .card-title {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #card-one {
+    display: flex;
+  }
+  #card-one-pic {
+    padding: 0cm;
+  }
+
+  #card-two {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #card-two-pic {
+    padding: 0cm;
+  }
+  #card-three {
+    display: flex;
+  }
+  #card-three-pic {
+    padding: 0cm;
+  }
+
+  #more {
+    font-size: 20px;
+  }
+
+  #regist-title {
+    color: azure;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  #regist {
+    background-color: #ffbb00;
+    color: azure;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  #regist-question {
+    color: azure;
+    font-size: 20px;
+  }
+}
+@media (min-width: 913px) {
+  .card-img {
+    width: 100%;
+  }
+
+  .cards a {
+    width: 50%;
+    margin: 10px 0;
+    font-size: 60px;
+  }
+  .card-title {
+    width: 50%;
+  }
+}

@@ -1,0 +1,61 @@
+@import url(beauty-header-style.css);
+@import url(beauty-content-style.css);
+@import url(beauty-footer-style.css);
+@import url(beauty-navbar-style.css);
+@import url(beauty-author-detail.css);
+
+body {
+  background-color: #011a27;
+}
+
+#base {
+  display: grid;
+  grid-template-areas:
+    "hd"
+    "nav"
+    "main"
+    "ft";
+}
+#header {
+  grid-area: hd;
+  border-bottom: #ffbb00 solid 1px;
+}
+
+#navbar {
+  grid-area: nav;
+  text-align: end;
+  border-bottom: #ffbb00 solid 1px;
+}
+
+#main {
+  grid-area: main;
+  border-bottom: #ffbb00 solid 1px;
+  padding: 10px 0;
+}
+
+#footer {
+  grid-area: ft;
+  color: azure;
+  text-align: center;
+}
+
+@media (min-width: 913px) {
+  #navbar {
+    padding-right: 60px;
+  }
+  #main {
+    padding: 30px 60px;
+  }
+  #post-content {
+    display: grid;
+    grid-template-areas: "ar ar au";
+    flex-direction: row;
+    grid-gap: 20px;
+  }
+  #article {
+    grid-area: ar;
+  }
+  #author {
+    grid-area: au;
+  }
+}

@@ -1,0 +1,18 @@
+#author h1 {
+  color: aliceblue;
+}
+
+#author-infomation {
+  border: 1px solid #ffbb00;
+  color: azure;
+  display: flex;
+  flex-direction: row;
+}
+#avatar {
+  width: 10rem;
+}
+
+#author-detail {
+  list-style-type: none;
+  padding: 20px 20px;
+}
