@@ -1,7 +1,9 @@
 #postcard {
   display: block;
 }
-
+.cards {
+  margin-bottom: 20px;
+}
 .card-img {
   width: 100%;
 }
@@ -13,6 +15,19 @@
 .card-title a {
   text-decoration-line: none;
   color: azure;
+}
+.titles-and-buttons {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-button {
+  text-align: center;
+  background-color: #011a27;
+  border: #ffbb00 1px solid;
+  color: #ffbb00;
+  font-size: 14px;
 }
 
 #view-more {
@@ -60,10 +75,14 @@
     width: 100%;
   }
   .card-title {
-    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .titles-and-buttons {
+    width: 35%;
+    text-align: center;
+    padding-top: 10%;
   }
   #card-one {
     display: flex;
@@ -71,7 +90,6 @@
   #card-one-pic {
     padding: 0cm;
   }
-
   #card-two {
     display: flex;
     flex-direction: row-reverse;
@@ -118,7 +136,9 @@
     margin: 10px 0;
     font-size: 60px;
   }
-  .card-title {
+
+  .titles-and-buttons {
     width: 50%;
+    padding-top: 7%;
   }
 }
